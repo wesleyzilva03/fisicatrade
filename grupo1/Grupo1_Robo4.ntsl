@@ -1,0 +1,17 @@
+# Breakout Strategy Variation 4
+
+## Strategy Details:
+- **Mass**: 12.5
+- **Sensitivity**: High
+- **Volume Confirmation**: 2.5x
+- **Exit Strategy**: Trailing Stop
+
+## Implementation Steps:
+1. Define the trading conditions based on the breakout strategy.
+2. Set mass to 12.5 to confirm the breakout.
+3. Use high sensitivity for making quick decisions.
+4. Implement volume confirmation with a factor of 2.5 times the average volume.
+5. Use a trailing stop as the exit strategy to maximize profits.  
+
+## Additional Notes:
+- Keep monitoring the market conditions and adjust parameters as needed for optimal performance.
