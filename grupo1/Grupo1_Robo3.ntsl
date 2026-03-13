@@ -1,0 +1,8 @@
+# Grupo1_Robo3.ntsl
+
+## Strategy: Force Gradient
+- Variation: 3
+- Mass: 11.0
+- Stop Loss: 1.5\u00d7 ATR
+- Take Profit: 2.0\u00d7 ATR
+- Confirmation: Volume Spike
