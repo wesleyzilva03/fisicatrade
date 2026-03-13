@@ -1,0 +1,39 @@
+# Breakout Strategy Implementation
+
+## Strategy Overview
+This breakout strategy uses the force gradient concept, defined as F = M × A, where:
+- **F** = Force
+- **M** = Mass (the security price)
+- **A** = Acceleration (change in price over time)
+
+## Capital Allocation
+- **Total Capital**: R$50
+- **Risk Per Trade**: 2% of total capital = R$50 × 2% = R$1.00
+
+## Position Sizing
+Determine the position size based on the risk per trade and stop-loss distance:
+- **ATR (Average True Range)**: used to set a dynamic stop-loss.
+- **Stop-Loss Level**: Set at 1.5 × ATR below the entry price.
+- **Position Size**: Position Size = Risk Amount / (Entry Price - Stop Loss Level)
+
+## Entry Criteria
+- Buy when the price breaks above the resistance level (previous high) with volume confirmation.
+
+## Exit Criteria
+- Sell when the price hits the stop-loss or achieves a target profit defined by a multiple of the risk (e.g., 2x risk).
+
+## Risk Management
+- Only risk 2% of total capital (R$1.00 per trade).
+- Adjust the position size based on ATR and market volatility.
+
+## Volume Confirmation
+- Ensure volume exceeds the average volume of the past 20 periods before entering a trade to confirm breakout validity.
+
+## Implementation Steps
+1. Calculate the ATR for the security to determine stop-loss levels.
+2. Monitor price action for breakouts above resistance with sufficient volume.
+3. Execute buy orders when all conditions are met.
+4. Monitor trades and adjust stop-loss according to moving ATR as trade progresses.
+
+## Conclusion
+This breakout strategy aims to capture upward momentum in the market while managing risk using defined capital allocation and dynamic stop-loss levels.
