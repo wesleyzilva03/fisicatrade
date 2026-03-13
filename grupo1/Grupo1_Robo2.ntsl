@@ -1,0 +1,22 @@
+# Breakout Strategy Variation 2 with Force Gradient 
+
+## Parameters:
+- **Force Gradient Formula**: F = M × A
+- **Capital**: R$50
+- **Risk per Trade**: 2%
+- **Mass**: 10.5 kg
+- **ATR Period**: 14
+- **Volume MA Period**: 20
+
+## Strategy Overview:
+
+This strategy involves entering trades on breakouts above resistance levels while confirming with the volume. This ensures that there is sufficient momentum for the price to continue moving in the breakout direction.
+
+### Entry Conditions:
+1. Identify resistance levels on the chart.
+2. Wait for the price to break above this resistance level.
+3. Confirm the breakout with an increase in volume.
+
+### Risk Management:
+- Set stop-loss at a predetermined percentage based on the ATR.
+- Position size is adjusted based on the capital available and risk percentage per trade.
