@@ -1,0 +1,7 @@
+// Robot file for Robo5
+// Unique parameters
+Mass: 12.0
+Force Gradient: 0.01
+ATR multiplier: 1.2
+Volume Requirement: 10000
+Entry Conditions: Condition A
