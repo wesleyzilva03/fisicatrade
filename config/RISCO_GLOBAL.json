@@ -1,0 +1,7 @@
+{
+  "capital_allocation": 10000,
+  "number_of_robots": 200,
+  "capital_per_robot": 50,
+  "max_loss_per_operation": 0.02,
+  "daily_limit": 0.02
+}
